@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DetailFlow favicon</title>
+  <desc id="desc">DetailFlow monogram favicon.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="12" y1="9" x2="57" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29E4C0"/>
+      <stop offset="0.42" stop-color="#119DE0"/>
+      <stop offset="1" stop-color="#244BC4"/>
+    </linearGradient>
+    <linearGradient id="shineGradient" x1="19" y1="17" x2="45" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="#08111F"/>
+  <path d="M22 17H34C42.722 17 49 23.142 49 32C49 40.858 42.722 47 34 47H22V17Z" fill="url(#markGradient)" stroke="#FFFFFF" stroke-opacity="0.42" stroke-width="1.15"/>
+  <path d="M30 25H34C38.533 25 41 27.631 41 32C41 36.369 38.533 39 34 39H30V25Z" fill="#08111F"/>
+  <path d="M13 44C23 44 29.8 39.1 34.5 31.5C37 27.4 40.7 24.8 46 24.8" stroke="url(#shineGradient)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M13.5 22C17.2 17.8 22.4 15.2 28.4 14.4" stroke="#FFFFFF" stroke-opacity="0.54" stroke-width="2" stroke-linecap="round"/>
+</svg>

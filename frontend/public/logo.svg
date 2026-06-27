@@ -1,0 +1,41 @@
+<svg width="700" height="220" viewBox="0 0 700 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DetailFlow logo</title>
+  <desc id="desc">DetailFlow wordmark with a polished monogram icon.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="52" y1="42" x2="176" y2="174" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29E4C0"/>
+      <stop offset="0.42" stop-color="#119DE0"/>
+      <stop offset="1" stop-color="#244BC4"/>
+    </linearGradient>
+    <linearGradient id="shineGradient" x1="73" y1="51" x2="143" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="softShadow" x="10" y="10" width="190" height="190" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="8"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.035 0 0 0 0 0.09 0 0 0 0 0.16 0 0 0 0.16 0"/>
+      <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_1_1"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow_1_1" mode="normal" result="shape"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="28" y="28" width="164" height="164" rx="44" fill="#08111F"/>
+    <path d="M76 60H116C144.719 60 166 81.244 166 110C166 138.756 144.719 160 116 160H76V60Z" fill="url(#markGradient)" stroke="#FFFFFF" stroke-opacity="0.42" stroke-width="2.5"/>
+    <path d="M100 86H116C130.925 86 140 95.07 140 110C140 124.93 130.925 134 116 134H100V86Z" fill="#08111F"/>
+    <path d="M58 151C89.5 151 111.5 136.5 126.5 110.5C134 97.5 144.5 89 160 89" stroke="url(#shineGradient)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M52 86C61 75 74 68 89 66" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>
+    <path d="M158 136L162 145L172 149L162 153L158 162L154 153L144 149L154 145L158 136Z" fill="#FFFFFF" fill-opacity="0.76"/>
+  </g>
+
+  <text x="230" y="128" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="800" letter-spacing="0">
+    Detail<tspan fill="#1298D8">Flow</tspan>
+  </text>
+  <text x="234" y="164" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="600" letter-spacing="4.2">
+    ESTÉTICA AUTOMOTIVA
+  </text>
+</svg>
