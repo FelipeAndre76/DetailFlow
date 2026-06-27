@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/logo.svg" alt="Logo DetailFlow" width="210" />
+  <img src="./frontend/public/favicon.svg" alt="Logo DetailFlow" width="96" />
 </p>
 
 <h1 align="center">DetailFlow</h1>
